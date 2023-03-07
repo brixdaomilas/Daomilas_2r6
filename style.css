@@ -1,0 +1,58 @@
+*{
+    font-family: 'Rampart One', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    
+}
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-top: 50px;
+
+}
+header,nav,footer,section{
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px 0;
+}
+header{
+    margin-top: 0;
+    width: 100%;
+    height: 20vh;
+    background-color: #FF9671;
+}
+nav{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #A3AF9E;
+}
+ul li{
+    display: inline-block;
+    margin: 20px 50px;
+    font-weight: bold;
+}
+a{
+    color: black;   
+}
+section{
+    width: 100%;
+    height: 50vh;
+    background-color: #BDA69F;
+}
+section h1{
+    padding: 0;
+    position: relative;
+    top: 35%;
+}
+
+footer{
+    width: 100%;
+    height: 21.4vh;
+    background-color: #81C26E;
+    margin-bottom: 0;
+}
+
+
